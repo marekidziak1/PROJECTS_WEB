@@ -1,0 +1,63 @@
+*
+{
+    font-family: sans-serif;
+}
+body{
+    background-color: darkslategray;
+    background-image: url(images/karton.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+h1
+{
+    color: #ff000;
+    font-family: sans-serif;
+}
+a{
+    color:blueviolet;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:visited{
+    color:gray;
+}
+a:hover{
+    color:aquamarine;
+    text-decoration: underline
+} 
+span{
+    display: inline;
+    margin: 15px;
+    color: brown;
+    
+}
+table{
+    border: 1px solid black;
+    text-align: center;
+    width:100%;
+}
+td{
+    border:1px solid green; 
+    width: 50%;
+}
+#textcolumn{
+    text-align: justify;
+    width: auto;
+}
+
+#akapit1{
+    width:44%;
+    padding:3%;
+    float: left;
+}
+#akapit2{
+    width:44%;
+    padding:3%;
+    float: right;
+}
+table span{
+    color: green;
+}
+table > tfoot:last-child
+

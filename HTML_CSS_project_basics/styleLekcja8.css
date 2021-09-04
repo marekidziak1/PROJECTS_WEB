@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.square{
+    height:300px;
+    width:300px;
+    background-color: bisque!important;
+    margin:30px;
+    display:inline-block;
+    box-shadow: 0 0 5px 0 black; 
+    transition: all 0.2s ease-out;
+}
+.square:hover{
+    
+    /*Cień: box-shawdow:odsunięcie od osi X; odsunięcie od osi Y; rozmycie, poszerzenie, kolor cienia*/
+    box-shadow: 0 0 15px 0 black; 
+    opacity: 80%
+}
+#first{
+    position:absolute;
+    top:0;
+    left:0;
+    visibility:hidden;   /*!!!!!!!!!! */
+    z-index=10;
+}
+#last{
+    position:absolute;
+    top:100px;
+    left:100px;
+    background-color: aquamarine;
+}
+#additional{
+    overflow:hidden;
+    min-height: 300px;
+    max-height: 900px;
+    background-image: linear-gradient(to right bottom, yellow, green, purple)
+}
+
+
