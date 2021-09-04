@@ -1,5 +1,36 @@
-//lekcja 14
-consoloe.log(document);
+ //lekcja 14
+/*
+console.log(document);
+var placeholder = document.getElementById("placeholder");
+//placeholder.innerText="<b>JavaScript</b>"
+placeholder.innerHTML="<b>JavaScript</b>"
+
+var goodClassEl = document.getElementsByClassName("good");
+for (var i=0; i<goodClassEl.length; i++){
+    goodClassEl[i].innerText+=" - 0";
+}
+
+var li = document.getElementsVyTagName("li");
+console.log(li)
+
+var newLi = document.createElement("li");
+var text = document.createTextNode("Tekst 6");
+newLi.appendChild(text)
+
+var list = document.getElementByid("list");
+list.appendChild(newLi);
+
+
+var newLi2 = document.createElement("li");
+var text2=document.createTextNode("Tekst 3")
+newLi2.appendChild(text2)
+
+list.insertBefore(newLi2)
+
+list.appendChild(list.lastElementChild.cloneNode(true));
+
+var last = list.lastElementChild;
+*/
 //lekcja 12
 /*
 var mat = document.getElementById("math")
